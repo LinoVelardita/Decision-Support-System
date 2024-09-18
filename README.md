@@ -19,3 +19,14 @@ Total Custodies by Year: Custody records were grouped by year, counting the tota
 Identifying Youth Criminal Problem States: States were flagged as having a youth criminal problem if individuals under 18 contributed more to crime severity than adults. The data was grouped by state and age group, and the crime severity was compared.
 
 Crime Severity Ratio for Stolen vs. Non-Stolen Guns: For each incident, the ratio of crime severity involving stolen guns to that involving non-stolen guns was calculated. Incidents without non-stolen guns were excluded from the calculation.
+
+## Part 3
+Building a data cube, performing MDX queries, and creating Power BI dashboards to analyze crime-related data.
+
+Data Cube Construction: A data cube with dimensions for custody, date, gun, and participant was built, with measures like crime gravity and gun count to support the analysis.
+
+MDX Queries: Several queries were performed, including calculating year-over-year crime gravity changes by state, the percentage of crime gravity per gun type, and identifying incidents with gravity above the state average.
+
+Power BI Dashboards: Visualizations were created to show the geographical distribution of crime gravity by age group, gender-based differences in crime involvement, and the prevalence of stolen versus non-stolen guns over time.
+
+
